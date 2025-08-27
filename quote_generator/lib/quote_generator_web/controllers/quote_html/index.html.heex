@@ -1,0 +1,18 @@
+<section class="mx-auto max-w-xl py-16 px-6 text-center">
+  <h1 class="text-3xl font-bold mb-6">🎲 Quote Generator</h1>
+
+  <blockquote class="text-xl italic leading-relaxed mb-4">
+    “<%= @quote.text %>”
+  </blockquote>
+  <p class="text-gray-600 mb-8">— <%= @quote.author %></p>
+
+  <div class="space-x-3">
+    <a href={~p"/"} class="inline-block rounded-lg px-4 py-2 border">
+      Refresh
+    </a>
+  </div>
+
+  <p class="mt-10 text-sm text-gray-400">
+    Reload halaman (Cmd/Ctrl + R) atau klik Refresh untuk kutipan baru.
+  </p>
+</section>

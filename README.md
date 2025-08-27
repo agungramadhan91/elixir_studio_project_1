@@ -4,7 +4,7 @@
 
 ### Level Dasar (1–30) → Fokus: CRUD, Routing, Template, Context
 1. Hello Phoenix → App sederhana dengan 1 halaman Welcome.
-1. Quote Generator → Menampilkan kutipan random di setiap refresh.
+1. `quote_generator` → Menampilkan kutipan random di setiap refresh.
 1. Todo List → CRUD daftar tugas.
 1. Guestbook → User bisa menulis pesan, tampil di list.
 1. Contact Book → CRUD kontak (nama, telp, email).
